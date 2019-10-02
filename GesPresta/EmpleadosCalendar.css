@@ -1,0 +1,86 @@
+﻿body {
+    background-color: #E5F1F1;
+    margin: 0px;
+}
+
+form {
+    text-align: center;
+}
+
+div h2 {
+    font-size: 3em;
+}
+
+.tBox, #ddlDepEmp, #cmdEnviar {
+    display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+#ddlDepEmp {
+    margin-top: 0.5em;
+}
+
+#cmdEnviar {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 1em;
+    background-color: #8DA9C4;
+    border-radius: 2em;
+    color: blue;
+    border: 0.2em solid blue;
+}
+/*ESTILOS PARA FECHAS*/
+#fechasControl {
+    /*border: 1.5px solid blue;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*flex-direction: column;*/
+    text-align: center;
+}
+#fecNacimiento {
+    /*border: 1.5px solid green;*/
+    
+}
+#fecIngreso {
+    /*border: 1.5px solid purple;*/
+}
+#antiguedad{
+    /*border: 1.5px solid orange;*/
+}
+#fechasControl div{
+    margin:2em;
+}
+#antigüedad h3 {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+/*#errores {
+    text-align:center;
+}*/
+/*label {
+    display: block;
+    text-align: center;
+}*/
+#labelsOut {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/**/
+
+/*div {
+    width: 400px;
+    height: 100px;
+}*/

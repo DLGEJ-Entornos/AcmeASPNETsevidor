@@ -1,0 +1,39 @@
+﻿body {
+    background-color: #E5F1F1;
+    margin: 0px;
+}
+
+form {
+    text-align: center;
+}
+
+div h2 {
+    font-size: 3em;
+}
+
+.tBox, #ddlTipPre, #cmdEnviar {
+    display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+#ddlTipPre {
+    margin-top: 0.5em;
+}
+
+#cmdEnviar {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 1em;
+    background-color: #8DA9C4;
+    border-radius: 2em;
+    color: blue;
+    border: 0.2em solid blue;
+}

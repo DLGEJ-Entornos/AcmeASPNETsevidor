@@ -1,0 +1,41 @@
+﻿body{
+    margin:0px;
+}
+#contenedor {
+    height: 16em;
+    border: 0.30em solid black;
+    background-color: #8DA9C4;
+    margin-bottom: 3em
+}
+#Nav {
+    background-color: #8DA9C4;
+    height: 10%;
+    font-size:1.2em;
+}
+.linkbuton {
+    margin: 1em;
+    font-weight:900;
+    text-decoration:none;
+}
+#Titulo {
+    border-bottom: 0.30em solid black;
+    border-top: 0.30em solid black;
+    background-color: #134074;
+    height: 70%;
+}
+#Titulo p {
+    font-size: 70px;
+}
+#SegTit p {
+    font-size: 25px;
+}
+#SegTit {
+    background-color: #8DA9C4;
+    height: 15%;
+}
+#Nav,#Titulo,#SegTit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
