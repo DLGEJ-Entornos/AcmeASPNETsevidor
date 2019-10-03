@@ -32,6 +32,7 @@
             <asp:TextBox class="tBox" id="txtTelEmp" placeholder="Teléfonos" runat="server" />
 
             <asp:RequiredFieldValidator ID="rqdtxtFnaEmp" ForeColor="red" ErrorMessage="Se requiere una fecha de nacimiento." ControlToValidate="txtFnaEmp" runat="server" ></asp:RequiredFieldValidator>
+            <asp:CompareValidator ID="cmptxtFnaEmp" ControlToValidate="txtFnaEmp" ControlToCompare="txtFinEmp" runat="server" Type="Date" Operator="LessThan" ForeColor="Red" ErrorMessage="La Fecha de Ingreso del Empleado debe ser mayor que la Fecha de Nacimiento"></asp:CompareValidator>
             <asp:TextBox class="tBox" id="txtFnaEmp" placeholder="Fecha Nacimiento" runat="server" />
 
             <asp:RequiredFieldValidator ID="rqdtxtFinEmp" ForeColor="red" ErrorMessage="Se requiere una fecha de ingreso." ControlToValidate="txtFinEmp" runat="server" ></asp:RequiredFieldValidator>
