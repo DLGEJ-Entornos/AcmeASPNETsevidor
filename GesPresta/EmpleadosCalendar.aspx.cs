@@ -9,12 +9,20 @@ namespace GesPresta
 {
     public partial class EmpleadosCalendar : System.Web.UI.Page
     {
+        public bool sePuedeEnv;
         protected void Page_Load(object sender, EventArgs e)
         {
-            txtCodEmp.Focus();
+            if (!Page.IsPostBack)
+            { // Se ejecuta solo en la carga inicial del Web Form 
+                sePuedeEnv = false;
+            }
+            else
+            { // Este código se ejecuta cuando es una devolución de datos 
+                txtCodEmp.Focus();
+            }
         }
         
-        public bool sePuedeEnv = false;
+        
 
         protected void cmdEnviar_Click(object sender, EventArgs e)
         {
@@ -220,6 +228,7 @@ namespace GesPresta
 
                 calcAntiguedad(ingDEstring);
                 lblErrFormatFec.Text = "";
+                sePuedeEnv = true;
             }
             catch (System.FormatException)
             {
@@ -229,7 +238,7 @@ namespace GesPresta
                 txtMeses.Text = "";
                 txtDias.Text = "";
                 txtFecIng.Text = "";
-
+                sePuedeEnv = false;
                 //throw;
             }
         }
@@ -241,4 +250,6 @@ namespace GesPresta
   Er2: Si introducimos las fechas en el textbox por primera vez y no son coherentes no salta error y deja enviarlas.
   Er3: Que no envie campos vacios (si no tiene valor de fechas no enviar).
   Er4: fechasCoherentes que devuelva bool
+
+    ERR5: NO PUEDO ENVIAR DATOS CON EL EVENTO CLICK DEL BOTON! PROBLEMA CON booleano SepuedeEnviar.
      */
