@@ -67,6 +67,15 @@ namespace GesPresta {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rqdtxtImpPre;
         
         /// <summary>
+        /// Control rngtxtImpPre.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator rngtxtImpPre;
+        
+        /// <summary>
         /// Control txtImpPre.
         /// </summary>
         /// <remarks>
@@ -83,6 +92,15 @@ namespace GesPresta {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rqdtxtPorPre;
+        
+        /// <summary>
+        /// Control rngtxtPorPre.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator rngtxtPorPre;
         
         /// <summary>
         /// Control txtPorPre.

@@ -10,7 +10,7 @@
     <link href="./Prestaciones.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server">    //display = "dinamic" al lado de runat.
         <div>
             <uc1:Cabecera runat="server" ID="Cabecera" />
         </div>
@@ -22,9 +22,11 @@
             <asp:TextBox class="tBox" id="txtDesPre" placeholder="Descripción" runat="server" />
 
             <asp:RequiredFieldValidator ControlToValidate="txtImpPre" ID="rqdtxtImpPre" runat="server" ForeColor="red" ErrorMessage="Se requiere importe fijo."></asp:RequiredFieldValidator>
+            <asp:RangeValidator ControlToValidate="txtImpPre" MinimumValue="0,00" MaximumValue="500,00" ID="rngtxtImpPre" runat="server" ForeColor="red" Type="Double" ErrorMessage="El valor comprendido tiene que estar entre 0 y 500"></asp:RangeValidator>
             <asp:TextBox class="tBox" id="txtImpPre" placeholder="Importe Fijo" runat="server" />
 
             <asp:RequiredFieldValidator ControlToValidate="txtPorPre" ID="rqdtxtPorPre" runat="server" ForeColor="red" ErrorMessage="Se requiere porcentaje de importe."></asp:RequiredFieldValidator>
+            <asp:RangeValidator ControlToValidate="txtPorPre" MinimumValue="0,00" MaximumValue="15,00" ID="rngtxtPorPre" runat="server" ForeColor="red" Type="Double" ErrorMessage="El valor comprendido tiene que estar entre 0% y 15%"></asp:RangeValidator>
             <asp:TextBox class="tBox" id="txtPorPre" placeholder="Porcentaje de Importe" runat="server" />
 
             <label id="labelTPre" for="ddlTipPre">Tipo de Prestación:</label>
