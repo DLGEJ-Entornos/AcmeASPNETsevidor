@@ -71,11 +71,13 @@
     <Content Include="Cabecera.css" />
     <Content Include="Default.aspx" />
     <Content Include="Default.css" />
+    <Content Include="EmpleadosValCampOblEJ6.aspx" />
     <Content Include="EmpleadosCalendar.aspx" />
     <Content Include="Empleados1.aspx" />
     <Content Include="Empleados.aspx" />
     <Content Include="Empleados.css" />
     <Content Include="EmpleadosCalendar.css" />
+    <Content Include="PrestacionesValCampOblEJ6.aspx" />
     <Content Include="Prestaciones1.aspx" />
     <Content Include="Prestaciones.aspx" />
     <Content Include="Prestaciones.css" />
@@ -97,6 +99,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EmpleadosValCampOblEJ6.aspx.cs">
+      <DependentUpon>EmpleadosValCampOblEJ6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpleadosValCampOblEJ6.aspx.designer.cs">
+      <DependentUpon>EmpleadosValCampOblEJ6.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EmpleadosCalendar.aspx.cs">
       <DependentUpon>EmpleadosCalendar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -117,6 +126,13 @@
     </Compile>
     <Compile Include="Empleados.aspx.designer.cs">
       <DependentUpon>Empleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrestacionesValCampOblEJ6.aspx.cs">
+      <DependentUpon>PrestacionesValCampOblEJ6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrestacionesValCampOblEJ6.aspx.designer.cs">
+      <DependentUpon>PrestacionesValCampOblEJ6.aspx</DependentUpon>
     </Compile>
     <Compile Include="Prestaciones1.aspx.cs">
       <DependentUpon>Prestaciones1.aspx</DependentUpon>
