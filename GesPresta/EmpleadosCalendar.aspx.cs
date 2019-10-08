@@ -9,7 +9,7 @@ namespace GesPresta
 {
     public partial class EmpleadosCalendar : System.Web.UI.Page
     {
-        public bool sePuedeEnv;
+        public bool sePuedeEnv=true;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)

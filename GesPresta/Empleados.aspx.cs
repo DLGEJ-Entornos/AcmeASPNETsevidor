@@ -12,7 +12,7 @@ namespace GesPresta
         protected void Page_Load(object sender, EventArgs e)
         {
             txtCodEmp.Focus();
-            txtNifEmp.Text = "11111111"; // Establece un valor por defecto para el campo
+            //txtNifEmp.Text = "11111111"; // Establece un valor por defecto para el campo
 
             //int a = 3; // Produce un error en tiempo de ejecución
             //int b = 0;
@@ -23,13 +23,14 @@ namespace GesPresta
 
             if (Trace.IsEnabled)
             {
-                txtNifEmp.Text = "11111111X"; // Establece un valor por defecto para el campo
+                //txtNifEmp.Text = "11111111X"; // Establece un valor por defecto para el campo
                 Trace.Warn("Asignación", "Cambiado el valor txtNifEmp a: " + txtNifEmp.Text);
             }
 
-            txtNifEmp.Text = "11111111X"; // Establece un valor por defecto para el campo
+            //txtNifEmp.Text = "11111111X"; // Establece un valor por defecto para el campo
             Trace.Warn("Asignación", "Cambiado el valor de txtNifEmp a: " + txtNifEmp.Text);
-            Trace.Write("Evento", "Saliendo de Page_Load");
+            Trace.Write("Evento", "Saliendo de Page_Load");
+
         }
 
         protected void cmdEnviar_Click(object sender, EventArgs e)

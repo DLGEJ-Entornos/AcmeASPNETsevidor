@@ -16,6 +16,7 @@
         </div>
         <div>
             <h2>DATOS DE LAS PRESTACIONES</h2>
+            <asp:RegularExpressionValidator ID="regtxtCodPre" runat="server" ControlToValidate="txtCodPre" ValidationExpression="\d{3}-\d{3}-\d{3}" ForeColor="green" ErrorMessage="Formato incorrecto, debe ser así: 123-456-789"></asp:RegularExpressionValidator>
             <asp:TextBox class="tBox" id="txtCodPre" placeholder="Código Prestación" runat="server" />
             <asp:TextBox class="tBox" id="txtDesPre" placeholder="Descripción" runat="server" />
             <asp:TextBox class="tBox" id="txtImpPre" placeholder="Importe Fijo" runat="server" />
@@ -29,7 +30,7 @@
                 <asp:ListItem Value="Otras" Text="Otras" />
             </asp:DropDownList>
 
-            <asp:Button ID="cmdEnviar" runat="server" Text="Enviar" />
+            <asp:Button ID="cmdEnviar" runat="server" Text="Enviar" OnClick="cmdEnviar_Click" />
         </div>
     </form>
 </body>
