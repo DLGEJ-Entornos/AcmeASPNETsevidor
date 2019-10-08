@@ -1,0 +1,14 @@
+﻿body {
+    background-color: #E5F1F1;
+    margin: 0px;
+}
+
+#info {
+    width: 60%;
+    margin: auto;
+}
+
+    #info p {
+        text-align: center;
+        font-size: 1.5em;
+    }

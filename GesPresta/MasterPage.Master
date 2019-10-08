@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="GesPresta.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="./Cabecera.css" type="text/css" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+        <div id="contenedor">
+
+            <div class="sub" id="Nav">
+                <asp:LinkButton CausesValidation="False" CssClass="linkbuton" runat="server" PostBackUrl="~/Default.aspx">Inicio</asp:LinkButton>
+                <asp:LinkButton CausesValidation="False" CssClass="linkbuton" runat="server" PostBackUrl="~/Empleados1.aspx">Empleados</asp:LinkButton>
+                <asp:LinkButton CausesValidation="False" CssClass="linkbuton" runat="server" PostBackUrl="~/Prestaciones1.aspx">Prestaciones</asp:LinkButton>
+            </div>
+
+            <div class="sub" id="Titulo">
+                <p>ACME INNOVACIÓN, S. FIG.</p>
+            </div>
+
+            <div class="sub" id="SegTit">
+                <p>Gestión de Prestaciones Salariales</p>
+            </div>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

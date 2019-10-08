@@ -77,6 +77,10 @@
     <Content Include="Empleados.aspx" />
     <Content Include="Empleados.css" />
     <Content Include="EmpleadosCalendar.css" />
+    <Content Include="Formulario web1.aspx" />
+    <Content Include="MPDefault.aspx" />
+    <Content Include="MPDefault.css" />
+    <Content Include="prestacionesBuscar.ascx" />
     <Content Include="PrestacionesValCampOblEJ6.aspx" />
     <Content Include="Prestaciones1.aspx" />
     <Content Include="Prestaciones.aspx" />
@@ -127,6 +131,34 @@
     <Compile Include="Empleados.aspx.designer.cs">
       <DependentUpon>Empleados.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formulario web1.aspx.cs">
+      <DependentUpon>Formulario web1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formulario web1.aspx.designer.cs">
+      <DependentUpon>Formulario web1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MPDefault.aspx.cs">
+      <DependentUpon>MPDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MPDefault.aspx.designer.cs">
+      <DependentUpon>MPDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="prestacionesBuscar.ascx.cs">
+      <DependentUpon>prestacionesBuscar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prestacionesBuscar.ascx.designer.cs">
+      <DependentUpon>prestacionesBuscar.ascx</DependentUpon>
+    </Compile>
     <Compile Include="PrestacionesValCampOblEJ6.aspx.cs">
       <DependentUpon>PrestacionesValCampOblEJ6.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -158,6 +190,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MasterPage.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
