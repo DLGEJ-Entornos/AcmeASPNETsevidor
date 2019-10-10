@@ -41,10 +41,10 @@ label {
 /*Estilo  para Prestaciones2 (botones y listas)*/ /**/
 #btnVerPrestaciones {
     /*Boton a la derecha del CodPrestacion*/
-    display: inline;
-    background-color: red;
+    background-color: green;
 }
 
 #menusSelPrestaciones {
-    /*Menu Align a la derecha */
+
+}
 

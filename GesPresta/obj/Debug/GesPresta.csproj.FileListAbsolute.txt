@@ -165,3 +165,4 @@ C:\Users\idroj\Documents\FP\2º\SERVIDOR\Practicas\Acme\GesPresta\obj\Debug\GesP
 C:\Users\idroj\Documents\FP\2º\SERVIDOR\Practicas\Acme\GesPresta\obj\Debug\GesPresta.csproj.CopyComplete
 C:\Users\idroj\Documents\FP\2º\SERVIDOR\Practicas\Acme\GesPresta\obj\Debug\GesPresta.dll
 C:\Users\idroj\Documents\FP\2º\SERVIDOR\Practicas\Acme\GesPresta\obj\Debug\GesPresta.pdb
+E:\2ºDAW\SERVIDOR\tema1\Practicas\Acme\GesPresta\obj\Debug\GesPresta.csprojAssemblyReference.cache

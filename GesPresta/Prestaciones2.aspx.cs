@@ -32,7 +32,8 @@ namespace GesPresta
                 btnSeleccionar.Visible = false;
                 prestacionesBuscar.Visible = false;
                 btnVerPrestaciones.Text = "Ver prestaciones";
-            }
+            }
+
         }
 
         protected void btnSeleccionar_Click(object sender, EventArgs e)
