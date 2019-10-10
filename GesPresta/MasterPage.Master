@@ -17,8 +17,8 @@
         <div id="contenedor">
 
             <div class="sub" id="Nav">
-                <asp:LinkButton CausesValidation="False" CssClass="linkbuton" runat="server" PostBackUrl="~/Default.aspx">Inicio</asp:LinkButton>
-                <asp:LinkButton CausesValidation="False" CssClass="linkbuton" runat="server" PostBackUrl="~/Empleados1.aspx">Empleados</asp:LinkButton>
+                <asp:LinkButton CausesValidation="False" CssClass="linkbuton" runat="server" PostBackUrl="~/MPDefault.aspx">Inicio</asp:LinkButton>
+                <asp:LinkButton CausesValidation="False" CssClass="linkbuton" runat="server" PostBackUrl="~/MPEmpleados.aspx">Empleados</asp:LinkButton>
                 <asp:LinkButton CausesValidation="False" CssClass="linkbuton" runat="server" PostBackUrl="~/Prestaciones1.aspx">Prestaciones</asp:LinkButton>
             </div>
 
