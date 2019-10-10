@@ -53,7 +53,6 @@ E:\2ºDAW\SERVIDOR\tema1\Practicas\Acme\GesPresta\obj\Debug\GesPresta.csproj.Cor
 E:\2ºDAW\SERVIDOR\tema1\Practicas\Acme\GesPresta\obj\Debug\GesPresta.csproj.CopyComplete
 E:\2ºDAW\SERVIDOR\tema1\Practicas\Acme\GesPresta\obj\Debug\GesPresta.dll
 E:\2ºDAW\SERVIDOR\tema1\Practicas\Acme\GesPresta\obj\Debug\GesPresta.pdb
-E:\2ºDAW\SERVIDOR\tema1\Practicas\Acme\GesPresta\obj\Debug\GesPresta.csprojAssemblyReference.cache
 D:\2ºDAW\SERVIDOR\tema1\Practicas\Acme\GesPresta\bin\GesPresta.dll.config
 D:\2ºDAW\SERVIDOR\tema1\Practicas\Acme\GesPresta\bin\GesPresta.dll
 D:\2ºDAW\SERVIDOR\tema1\Practicas\Acme\GesPresta\bin\GesPresta.pdb

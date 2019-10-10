@@ -78,13 +78,14 @@
     <Content Include="Empleados.css" />
     <Content Include="EmpleadosCalendar.css" />
     <Content Include="Formulario web1.aspx" />
+    <Content Include="HojaPrestaciones.css" />
     <Content Include="MPDefault.aspx" />
     <Content Include="MPDefault.css" />
+    <Content Include="Prestaciones2.aspx" />
     <Content Include="prestacionesBuscar.ascx" />
     <Content Include="PrestacionesValCampOblEJ6.aspx" />
     <Content Include="Prestaciones1.aspx" />
     <Content Include="Prestaciones.aspx" />
-    <Content Include="Prestaciones.css" />
     <Content Include="Prestaciones1Respuesta.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -151,6 +152,13 @@
     </Compile>
     <Compile Include="MPDefault.aspx.designer.cs">
       <DependentUpon>MPDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Prestaciones2.aspx.cs">
+      <DependentUpon>Prestaciones2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prestaciones2.aspx.designer.cs">
+      <DependentUpon>Prestaciones2.aspx</DependentUpon>
     </Compile>
     <Compile Include="prestacionesBuscar.ascx.cs">
       <DependentUpon>prestacionesBuscar.ascx</DependentUpon>

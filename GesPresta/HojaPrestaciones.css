@@ -1,14 +1,17 @@
 ﻿body {
-    background-color:#E5F1F1;
+    background-color: #E5F1F1;
     margin: 0px;
 }
+
 form {
     text-align: center;
 }
+
 div h2 {
     font-size: 3em;
 }
-.tBox, #ddlDepEmp, #cmdEnviar {
+
+.tBox, #ddlTipPre, #cmdEnviar {
     display: block;
     margin-bottom: 0.5em;
     margin-left: auto;
@@ -16,12 +19,15 @@ div h2 {
     text-align: center;
     font-size: 1.5em;
 }
-label{
+
+label {
     font-size: 1.5em;
 }
-#ddlDepEmp{
-    margin-top:0.5em;
+
+#ddlTipPre {
+    margin-top: 0.5em;
 }
+
 #cmdEnviar {
     font-size: 1.5em;
     font-weight: 700;
@@ -31,3 +37,14 @@ label{
     color: blue;
     border: 0.2em solid blue;
 }
+
+/*Estilo  para Prestaciones2 (botones y listas)*/ /**/
+#btnVerPrestaciones {
+    /*Boton a la derecha del CodPrestacion*/
+    display: inline;
+    background-color: red;
+}
+
+#menusSelPrestaciones {
+    /*Menu Align a la derecha */
+
