@@ -19,7 +19,7 @@
             <div class="sub" id="Nav">
                 <asp:LinkButton CausesValidation="False" CssClass="linkbuton" runat="server" PostBackUrl="~/MPDefault.aspx">Inicio</asp:LinkButton>
                 <asp:LinkButton CausesValidation="False" CssClass="linkbuton" runat="server" PostBackUrl="~/MPEmpleados.aspx">Empleados</asp:LinkButton>
-                <asp:LinkButton CausesValidation="False" CssClass="linkbuton" runat="server" PostBackUrl="~/Prestaciones1.aspx">Prestaciones</asp:LinkButton>
+                <asp:LinkButton CausesValidation="False" CssClass="linkbuton" runat="server" PostBackUrl="~/MPPrestaciones.aspx">Prestaciones</asp:LinkButton>
             </div>
 
             <div class="sub" id="Titulo">
